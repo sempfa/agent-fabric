@@ -61,11 +61,11 @@ This implementation provides concrete code for the architectural concepts descri
 
 | Series Article | Implementation |
 |---|---|
-| [Article 8: The Unit of Authority](https://architectingautonomy.substack.com/p/the-unit-of-authority) | `AuthorityUnit` + `AuthorityScope` in [`src/governance/models.py`](src/governance/models.py) |
-| [Article 9: Authority Composition](https://architectingautonomy.substack.com/p/authority-composition) | `CompositionContract` with four primitives in [`src/governance/models.py`](src/governance/models.py) |
-| [Article 11: Governance at Machine Speed](https://architectingautonomy.substack.com/p/governance-at-machine-speed) | `governed_process_agent_call()` control-surface band in [`src/supervisor/index.py`](src/supervisor/index.py) |
-| Companion: The Arbitration Patterns | `GovernanceEngine.evaluate()` in [`src/governance/engine.py`](src/governance/engine.py) |
-| Companion: Authority Graph Formalization | Data model in [`src/governance/models.py`](src/governance/models.py) |
+| [Article 8: The Unit of Authority](https://architectingautonomy.substack.com/p/the-unit-of-authority) | `AuthorityUnit` + `AuthorityScope` in [`src/governance/models.py`](Arbiter/src/governance/models.py) |
+| [Article 9: Authority Composition](https://architectingautonomy.substack.com/p/authority-composition) | `CompositionContract` with four primitives in [`src/governance/models.py`](Arbiter/src/governance/models.py) |
+| [Article 11: Governance at Machine Speed](https://architectingautonomy.substack.com/p/governance-at-machine-speed) | `governed_process_agent_call()` control-surface band in [`src/supervisor/index.py`](Arbiter/src/supervisor/index.py) |
+| Companion: The Arbitration Patterns | `GovernanceEngine.evaluate()` in [`src/governance/engine.py`](Arbiter/src/governance/engine.py) |
+| Companion: Authority Graph Formalization | Data model in [`src/governance/models.py`](Arbiter/src/governance/models.py) |
 
 ## Project Structure
 
